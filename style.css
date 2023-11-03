@@ -1,0 +1,61 @@
+body {
+    background: #dadada;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    margin-top: 1.2em;
+    margin-left: 0;
+    background-color: #4e4e4e;;
+    display: flex;
+    justify-content: flex-end; 
+    width: 100%; 
+}
+
+#menu ul ul {
+    display: none;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+}
+
+#menu li a {
+    display: block;
+    background: #4e4e4e;
+    color: #fff; 
+    text-decoration: none;
+    padding: 30px;
+}
+
+#menu li a:hover {
+    display: block;
+    background: #575757;
+    color: orange;
+    font-size: 1.2em;
+}
+
+#menu ul li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu ul {
+    position: relative;
+}
+
+#menu li {
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    float: left;
+    margin-top: 100px;
+    padding: 20px;
+}
